@@ -1,13 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --white: #ffffff;
-  --black: #000000;
+  --spacing: 2px;
 }
 
 
 body {
-  background: var(--black);
-  color: var(--white);
+  background: var(--white);
+  color: var(--black);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-dm-sans);
+  
+  --color-cms-white: #FFFFFF;
+  --color-cms-grey: #F0F0F0;
+  --color-cms-green: #176B45;
+  --color-cms-light-green: #B2BEB5;
 }
