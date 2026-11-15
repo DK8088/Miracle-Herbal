@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/cms/header";
-import SideBar from "../components/cms/sidebar";
+import Header from "../../components/cms/header";
+import SideBar from "../../components/cms/sidebar";
 
 import { Inter } from "next/font/google";
 
